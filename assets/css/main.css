@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+
+    background-image: url(../img/bacground.jpg);
+    background-size: 100vw 100vh;
+    background-repeat: repeat-x;
+}
+
+#cheerpjDisplay {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #fff;
+    padding: 20px;
+    position: absolute;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5), inset 0 0 10px rgba(0, 0, 0, 0.5);;
+}
