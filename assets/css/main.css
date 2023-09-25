@@ -21,3 +21,11 @@ body {
     border: none;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5), inset 0 0 10px rgba(0, 0, 0, 0.5);;
 }
+
+#gitlab {
+    position: fixed; /* This will position the image relative to the viewport */
+    bottom: 0; /* Position the image at the bottom */
+    right: 0; /* Position the image at the right */
+    width: 100px;
+    height: 100px;
+}
